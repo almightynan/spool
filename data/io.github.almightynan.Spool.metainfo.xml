@@ -56,19 +56,19 @@ SPDX-License-Identifier: CC0-1.0
   </supports>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/almightynan/spool/main/data/screenshots/1-status.png</image>
+      <image>https://raw.githubusercontent.com/almightynan/spool/master/data/screenshots/1-status.png</image>
       <caption>Printer status with ink levels</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/almightynan/spool/main/data/screenshots/2-jobs.png</image>
+      <image>https://raw.githubusercontent.com/almightynan/spool/master/data/screenshots/2-jobs.png</image>
       <caption>Print queue and finished jobs</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/almightynan/spool/main/data/screenshots/3-scan.png</image>
+      <image>https://raw.githubusercontent.com/almightynan/spool/master/data/screenshots/3-scan.png</image>
       <caption>Scan settings for a network scanner</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/almightynan/spool/main/data/screenshots/4-add.png</image>
+      <image>https://raw.githubusercontent.com/almightynan/spool/master/data/screenshots/4-add.png</image>
       <caption>Adding a printer by its address</caption>
     </screenshot>
   </screenshots>
