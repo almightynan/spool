@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: 2026 almightynan <https://github.com/almightynan>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+# Cargo build output
+/target
+
+# flatpak-builder state, build tree, local repo and bundles
+/.flatpak-builder
+/build-dir
+/repo
+*.flatpak
+
+# Editors
+/.vscode
+/.idea
+*.swp
+*~
+
+# Settings written atomically through a temporary file
+*.conf.tmp

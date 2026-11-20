@@ -1,0 +1,21 @@
+Ipp	Vivek Home Printer	HP6451066A3607.local.	631
+txtvers=1
+qtotal=1
+pdl=application/vnd.hp-PCL,image/jpeg,application/PCLm,image/urf
+rp=ipp/print
+PaperMax=<legal-A4
+kind=document,envelope,photo
+URF=CP1,MT1-2-8-9-10-11,OB9,OFU0,PQ3-4-5,RS300-600,SRGB24,W8-16,DEVW8-16,DEVRGB24-48,ADOBERGB24-48,DM3,IS1,V1.3
+ty=ENVY 5530 series
+product=(HP ENVY 5530 series)
+usb_MFG=HP
+usb_MDL=ENVY 5530 series
+priority=20
+mac=64:51:06:6a:36:07
+adminurl=http://HP6451066A3607.local./#hId-pgAirPrint
+note=
+Fax=F
+UUID=1c852a4d-b800-1f08-abcd-6451066a3607
+Color=T
+Duplex=T
+Scan=T

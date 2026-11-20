@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: 2026 almightynan <https://github.com/almightynan>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+[workspace]
+resolver = "2"
+members = ["crates/protocols", "crates/services", "crates/app"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+rust-version = "1.85"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+unwrap_used = "deny"
+expect_used = "deny"
+panic = "deny"
+dbg_macro = "deny"
+todo = "deny"
+
+[profile.release]
+lto = "thin"
+codegen-units = 4

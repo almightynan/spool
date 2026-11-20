@@ -1,0 +1,6 @@
+# SPDX-FileCopyrightText: 2026 almightynan <https://github.com/almightynan>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+allow-unwrap-in-tests = true
+allow-expect-in-tests = true
+allow-panic-in-tests = true

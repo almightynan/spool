@@ -1,0 +1,13 @@
+Uscan	Vivek Home Printer	HP6451066A3607.local.	8080
+txtvers=1
+vers=2.0
+pdl=application/octet-stream,application/pdf,image/jpeg
+ty=HP ENVY 5530 series
+adminurl=http://HP6451066A3607.local.
+note=
+UUID=1c852a4d-b800-1f08-abcd-6451066a3607
+representation=images/printer.png
+rs=eSCL
+cs=binary,color,grayscale
+is=platen
+duplex=F

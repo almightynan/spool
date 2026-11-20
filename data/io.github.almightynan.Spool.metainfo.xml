@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-FileCopyrightText: 2026 almightynan <https://github.com/almightynan>
+SPDX-License-Identifier: CC0-1.0
+-->
+<component type="desktop-application">
+  <id>io.github.almightynan.Spool</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Spool</name>
+  <summary>Manage network printers and scanners</summary>
+  <developer id="io.github.almightynan">
+    <name>almightynan</name>
+  </developer>
+  <description>
+    <p>
+      Spool shows what your network printers and scanners are doing and lets you act on it.
+      It works with any printer that supports IPP and any scanner that supports eSCL (AirScan).
+    </p>
+    <ul>
+      <li>Finds printers and scanners on the local network as they appear, or by IP address or host name</li>
+      <li>Shows printer state, problems in plain sentences, ink or toner levels, and paper trays when the printer reports them</li>
+      <li>Lists print jobs and lets you cancel, hold, release or print them again</li>
+      <li>Adds and removes print queues, sets the default printer and prints a test page through CUPS</li>
+      <li>Scans with a preview, resolution, color mode, paper size and source, and saves as PDF or JPEG</li>
+      <li>Opens the printer's own web page</li>
+    </ul>
+  </description>
+  <url type="homepage">https://github.com/almightynan/spool</url>
+  <url type="bugtracker">https://github.com/almightynan/spool/issues</url>
+  <url type="vcs-browser">https://github.com/almightynan/spool</url>
+  <launchable type="desktop-id">io.github.almightynan.Spool.desktop</launchable>
+  <provides>
+    <binary>spool</binary>
+  </provides>
+  <categories>
+    <category>Settings</category>
+    <category>HardwareSettings</category>
+    <category>Printing</category>
+  </categories>
+  <keywords>
+    <keyword>printer</keyword>
+    <keyword>scanner</keyword>
+    <keyword>ink</keyword>
+    <keyword>CUPS</keyword>
+    <keyword>IPP</keyword>
+    <keyword>eSCL</keyword>
+  </keywords>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </supports>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/almightynan/spool/main/data/screenshots/1-status.png</image>
+      <caption>Printer status with ink levels</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/almightynan/spool/main/data/screenshots/2-jobs.png</image>
+      <caption>Print queue and finished jobs</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/almightynan/spool/main/data/screenshots/3-scan.png</image>
+      <caption>Scan settings for a network scanner</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/almightynan/spool/main/data/screenshots/4-add.png</image>
+      <caption>Adding a printer by its address</caption>
+    </screenshot>
+  </screenshots>
+  <branding>
+    <color type="primary" scheme_preference="light">#99c1f1</color>
+    <color type="primary" scheme_preference="dark">#1a5fb4</color>
+  </branding>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="0.1.0" date="2026-11-19">
+      <description>
+        <p>First release.</p>
+      </description>
+    </release>
+  </releases>
+</component>

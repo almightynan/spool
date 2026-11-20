@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2026 almightynan <https://github.com/almightynan>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+[Desktop Entry]
+Type=Application
+Name=Spool
+GenericName=Printers and Scanners
+Comment=Manage printers and scanners
+Exec=spool
+Icon=io.github.almightynan.Spool
+Terminal=false
+Categories=Settings;HardwareSettings;Printing;
+Keywords=printer;scanner;ink;toner;cups;ipp;escl;airscan;print;scan;
+StartupNotify=true

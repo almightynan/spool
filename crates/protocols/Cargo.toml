@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: 2026 almightynan <https://github.com/almightynan>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+[package]
+name = "spool-protocols"
+description = "Wire formats for IPP, eSCL and DNS-SD printer services"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+quick-xml = "0.42"
+
+[lints]
+workspace = true

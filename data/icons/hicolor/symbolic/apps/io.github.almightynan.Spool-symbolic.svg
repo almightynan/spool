@@ -1,0 +1,7 @@
+<!--
+SPDX-FileCopyrightText: 2026 almightynan <https://github.com/almightynan>
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <path fill="#222222" d="M4 1h8v3H4zM2 5h12a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-1.5v-2h-9v2H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm10 1.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5zM4.5 11h7v4h-7zm1.5 1v1h4v-1z"/>
+</svg>

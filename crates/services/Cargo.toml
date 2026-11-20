@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: 2026 almightynan <https://github.com/almightynan>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+[package]
+name = "spool-services"
+description = "Network services for spool: IPP, CUPS, eSCL, discovery"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+spool-protocols = { path = "../protocols" }
+tokio = { version = "1", features = ["rt-multi-thread", "net", "time", "sync", "process", "fs", "macros", "io-util"] }
+hyper = { version = "1", features = ["client", "http1"] }
+hyper-util = { version = "0.1", features = ["tokio"] }
+http-body-util = "0.1"
+rustls = { version = "0.23", default-features = false, features = ["ring", "std", "tls12"] }
+tokio-rustls = { version = "0.26", default-features = false, features = ["ring", "tls12"] }
+mdns-sd = { version = "0.22", default-features = false, features = ["async"] }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "net", "time", "sync", "macros", "io-util", "test-util"] }
+
+[lints]
+workspace = true
